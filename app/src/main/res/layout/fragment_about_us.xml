@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/red"
+    tools:context=".AboutUs">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/about_us"
+                    android:textColor="@color/black"
+                    android:gravity="center"
+                    android:fontFamily="@font/chonburi"
+                    android:textSize="30sp"/>
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/applogo"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Blood Bank"
+                    android:layout_gravity="center"
+                    android:textSize="30sp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/chonburi"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_margin="10dp"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:textColor="@color/white"
+                    android:text="@string/welcome"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="22sp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/text_header"
+                    android:fontFamily="@font/chonburi"
+                    android:text="Our Mission"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:textColor="@color/white"
+                    android:text="@string/mission"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="22sp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/text_header"
+                    android:fontFamily="@font/chonburi"
+                    android:text="Who We Are ?"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:textColor="@color/white"
+                    android:text="@string/who_we_are"/>
+
+            </LinearLayout>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="100dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="300dp"
+                        android:layout_height="250dp"
+                        android:padding="5dp"
+                        android:layout_margin="5dp"
+                        app:cardCornerRadius="11dp"
+                        app:cardElevation="5dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                xmlns:app="http://schemas.android.com/apk/res-auto"
+                                android:layout_width="96dp"
+                                android:layout_height="96dp"
+                                android:src="@drawable/shivanshu"
+                                android:layout_marginTop="15dp"
+                                android:layout_gravity="center_horizontal"
+                                app:civ_border_color="#FF000000"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Shivanshu Prasad"
+                                android:layout_gravity="center_horizontal"
+                                android:textColor="@color/black"
+                                android:gravity="center"
+                                android:maxLines="1"
+                                android:textSize="20sp"
+                                android:layout_marginTop="4dp"/>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Frontend Developer"
+                                android:maxLines="1"
+                                android:layout_gravity="center_horizontal"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                android:textSize="18sp"
+                                android:layout_marginTop="4dp"/>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="300dp"
+                        android:layout_height="250dp"
+                        android:padding="5dp"
+                        android:layout_margin="5dp"
+                        app:cardCornerRadius="11dp"
+                        app:cardElevation="5dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                xmlns:app="http://schemas.android.com/apk/res-auto"
+                                android:layout_width="96dp"
+                                android:layout_height="96dp"
+                                android:src="@drawable/tej"
+                                android:layout_marginTop="15dp"
+                                android:layout_gravity="center_horizontal"
+                                app:civ_border_color="#FF000000"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Tej Pratap Singh"
+                                android:layout_gravity="center_horizontal"
+                                android:textColor="@color/black"
+                                android:textSize="20sp"
+                                android:layout_marginTop="4dp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="UI/UX Designer"
+                                android:layout_gravity="center_horizontal"
+                                android:textColor="@color/black"
+                                android:textSize="18sp"
+                                android:layout_marginTop="4dp"/>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="300dp"
+                        android:layout_height="250dp"
+                        android:padding="5dp"
+                        android:layout_margin="5dp"
+                        app:cardCornerRadius="11dp"
+                        app:cardElevation="5dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                xmlns:app="http://schemas.android.com/apk/res-auto"
+                                android:layout_width="96dp"
+                                android:layout_height="96dp"
+                                android:src="@drawable/nitish"
+                                android:layout_marginTop="15dp"
+                                android:layout_gravity="center_horizontal"
+                                app:civ_border_color="#FF000000"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Nitish Kumar Maurya"
+                                android:layout_gravity="center_horizontal"
+                                android:textColor="@color/black"
+                                android:textSize="20sp"
+                                android:layout_marginTop="4dp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Frontend Developer"
+                                android:layout_gravity="center_horizontal"
+                                android:textColor="@color/black"
+                                android:textSize="18sp"
+                                android:layout_marginTop="4dp"/>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="300dp"
+                        android:layout_height="250dp"
+                        android:padding="5dp"
+                        android:layout_margin="5dp"
+                        app:cardCornerRadius="11dp"
+                        app:cardElevation="5dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                xmlns:app="http://schemas.android.com/apk/res-auto"
+                                android:layout_width="96dp"
+                                android:layout_height="96dp"
+                                android:src="@drawable/sajidp"
+                                android:layout_marginTop="15dp"
+                                android:layout_gravity="center_horizontal"
+                                app:civ_border_color="#FF000000"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Sajid Perwaiz"
+                                android:layout_gravity="center_horizontal"
+                                android:textColor="@color/black"
+                                android:textSize="20sp"
+                                android:layout_marginTop="4dp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Backend Developer"
+                                android:layout_gravity="center_horizontal"
+                                android:textColor="@color/black"
+                                android:textSize="18sp"
+                                android:layout_marginTop="4dp"/>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

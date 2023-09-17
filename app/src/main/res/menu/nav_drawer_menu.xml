@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/g1"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_drawer_map_view"
+            android:title="@string/map_view"
+            android:icon="@drawable/map"/>
+
+        <item
+            android:id="@+id/nav_drawer_profile"
+            android:title="@string/my_profile"
+            android:icon="@drawable/user"/>
+
+        <item
+            android:id="@+id/nav_drawer_requests"
+            android:title="@string/requests"
+            android:icon="@drawable/requests"/>
+
+        <item
+            android:id="@+id/nav_drawer_hospital_service"
+            android:title="@string/hospital_service"
+            android:icon="@drawable/hospital"/>
+
+        <item
+            android:id="@+id/nav_drawer_blood_bank_service"
+            android:title="@string/blood_bank_service"
+            android:icon="@drawable/blood_bank"/>
+
+    </group>
+
+    <group
+        android:id="@+id/g2"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_drawer_logout"
+            android:title="@string/logout"
+            android:icon="@drawable/logout"/>
+
+        <item
+            android:id="@+id/nav_drawer_about_us"
+            android:title="@string/about_us"
+            android:icon="@drawable/about_us"/>
+
+        <item
+            android:id="@+id/nav_drawer_rate_us"
+            android:title="@string/rate_us"
+            android:icon="@drawable/review"/>
+
+    </group>
+
+</menu>

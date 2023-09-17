@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Blood Bank Project</string>
+    <string name="header_image">Header Image</string>
+    <string name="map_view">Map View</string>
+    <string name="requests">Requests</string>
+    <string name="donate_history">Donate History</string>
+    <string name="my_profile">My Profile</string>
+    <string name="logout">Logout</string>
+    <string name="blood_bank_service">Blood Bank Service</string>
+    <string name="hospital_service">Hospital Service</string>
+    <string name="about_us">About Us</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="closeDrawer">close</string>
+    <string name="openDrawer">open</string>
+    <string name="blood_drop">Blood Drop</string>
+    <string name="home">Home</string>
+    <string name="donate">Donate</string>
+    <string name="request">Request</string>
+
+    <string name="donate_blood">Donate Blood, Save Life</string>
+    <string name="stay_connected">Stay Connected</string>
+    <string name="name">Name</string>
+    <string name="dob">Date Of Birth</string>
+    <string name="address">Address</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="phone">Phone</string>
+    <string name="blood_group">Blood Group</string>
+    <string name="gender">Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="login">Log In</string>
+    <string name="email">Email</string>
+    <string name="or_sign_in_with">or sign in with</string>
+    <string name="facebook">Facebook</string>
+    <string name="google">Google</string>
+    <string name="or_sign_up_with">or sign up with</string>
+    <string-array name="blood" id="blood">
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+        <item>O+</item>
+        <item>O-</item>
+    </string-array>
+    <!--    <string name="default_web_client_id" translatable="false">633383779453-r5363muj1irbj9ia8tqnac5vose0d0v4.apps.googleusercontent.com</string>-->
+
+
+    <string name="facebook_app_id">253843677509752</string>
+    <string name="fb_login_protocol_scheme">fb1234</string>
+    <string name="facebook_client_token">56789</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcome">Welcome to the Blood Drop App, your trusted companion in the mission to save lives. Our app is designed with a singular purpose – to bridge the gap between blood donors and those in need of this life-saving resource. We are committed to making a positive impact on society by ensuring that no one suffers due to a lack of blood supply.</string>
+    <string name="mission">Our mission is simple yet powerful: to connect blood donors with those in need seamlessly, efficiently, and effectively. We strive to create a community of compassionate individuals who understand the importance of donating blood and are willing to contribute to this noble cause.</string>
+    <string name="who_we_are">We are a passionate team of developers, designers, and healthcare enthusiasts who came together with a common goal – to save lives through technology. With a deep sense of responsibility and a drive to make a difference, we embarked on this journey to create a user-friendly, accessible, and reliable blood bank app for Android.</string>
+
+
+</resources>
